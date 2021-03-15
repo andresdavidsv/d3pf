@@ -1,15 +1,19 @@
 <template>
   <v-container class="home">
-    <v-layout>
-      <v-flex class="primary"></v-flex>
-    </v-layout>
+    <HomeTitle />
+    <MainForm/>
   </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
+import HomeTitle from './HomeTitle'
+import MainForm from './HomeForm'
 
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    HomeTitle,
+    MainForm
+  }
 }
 </script>

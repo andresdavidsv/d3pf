@@ -1,12 +1,16 @@
 module.exports = {
-  plugins: [
-    'cypress'
-  ],
+  plugins: ['cypress'],
   env: {
     mocha: true,
     'cypress/globals': true
   },
   rules: {
     strict: 'off'
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      legacyDecorators: true
+    },
+    parser: 'babel-eslint'
   }
 }
