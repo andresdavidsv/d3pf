@@ -7,13 +7,14 @@
       </span>
     </div>
     <!-- <b-progress :max="1" height="14px" class="mb-3 rounded-0"> -->
-      <v-progress-linear
+    <v-progress-linear
       height="10"
       striped
       :value="heroTime.time"
-      :class="classHeroBg">
-        {{ heroTime.hero }}
-      </v-progress-linear>
+      :class="classHeroBg"
+    >
+      {{ heroTime.hero }}
+    </v-progress-linear>
     <!-- </b-progress> -->
   </div>
 </template>

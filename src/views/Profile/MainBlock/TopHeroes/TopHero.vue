@@ -1,5 +1,8 @@
 <template>
-  <div class="hero-portrait-wrapper mb-5 mb-sm-0 hover-cursor-pointer" @click="goToHero(hero.id)">
+  <div
+    class="hero-portrait-wrapper mb-5 mb-sm-0 hover-cursor-pointer"
+    @click="goToHero(hero.id)"
+  >
     <div class="bg-secondary d-flex justify-content-center p-3 p-sm-0">
       <!-- Bg Img -->
       <div :class="heroClass"></div>

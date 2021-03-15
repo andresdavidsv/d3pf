@@ -1,7 +1,7 @@
 <template>
   <v-container class="home">
     <HomeTitle />
-    <MainForm/>
+    <MainForm />
   </v-container>
 </template>
 

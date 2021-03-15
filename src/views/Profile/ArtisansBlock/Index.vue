@@ -1,10 +1,10 @@
 <template>
   <div class="artisan-list">
-    <hr class="bg-light my-5">
+    <hr class="bg-light my-5" />
     <h3 class="font-diablo mb-4">Artisans</h3>
     <v-row>
       <v-col lg="4" v-for="artisan in artisansInfo" :key="artisan.name">
-        <ArtisanItem :artisan="artisan"/>
+        <ArtisanItem :artisan="artisan" />
       </v-col>
     </v-row>
   </div>

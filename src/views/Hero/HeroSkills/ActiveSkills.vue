@@ -5,11 +5,14 @@
     <div class="skills">
       <v-row>
         <v-col v-for="(skill, idx) in skills" :key="idx" cols="6" lg="12">
-          <ActiveSkill :skill="skill.skill" :rune="skill.rune" :slot-num="idx+1"/>
+          <ActiveSkill
+            :skill="skill.skill"
+            :rune="skill.rune"
+            :slot-num="idx + 1"
+          />
         </v-col>
       </v-row>
     </div>
-
   </div>
 </template>
 

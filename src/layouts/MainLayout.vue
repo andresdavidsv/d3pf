@@ -1,13 +1,12 @@
 <template>
   <v-container>
-    <HeaderBar/>
+    <HeaderBar />
     <router-view />
-    <FooterBar/>
+    <FooterBar />
   </v-container>
 </template>
 
 <script>
-
 import HeaderBar from '@/components/HeaderBar/Index'
 import FooterBar from '@/components/FooterBar/Index'
 
